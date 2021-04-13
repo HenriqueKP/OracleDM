@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="SECURE_DML" directorySegmentName="seg_0" id="0579CC59-CE0D-4B8C-BDA4-3ABC5E36185C">
+<sourceConnName>PRD</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SECURE_DML</sourceObjName>
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:36 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<owner><![CDATA[C7828023-DF84-0790-F33D-15ED584E2C7D]]></owner>
+<source>CREATE OR REPLACE PROCEDURE HR.SECURE_DML
+IS
+BEGIN
+  IF TO_CHAR (SYSDATE, &apos;HH24:MI&apos;) NOT BETWEEN &apos;08:00&apos; AND &apos;18:00&apos;
+        OR TO_CHAR (SYSDATE, &apos;DY&apos;) IN (&apos;SAT&apos;, &apos;SUN&apos;) THEN
+	RAISE_APPLICATION_ERROR (-20205,
+		&apos;You may only make changes during normal office hours&apos;);
+  END IF;
+END secure_dml;</source>
+</StoredProcedureOraclev10g>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REGIONS" directorySegmentName="seg_0" id="509C1B71-16AD-5D64-0E38-5FE48216833B">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:28 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<schemaObject>B2BF57EC-5447-5293-64E8-E3899A46E4F9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>398C6926-0326-53D9-02FA-6FA3B15AC0F8</segment>
+<tableSpace>DF879E8A-B067-F7DC-0BDE-AE45DA0E325E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_NAME" id="0B7135CD-4D48-42EE-5782-7332BB266ABB">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:30 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_ID" id="DA015666-AC2C-9093-E8B8-648FE996817C">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:30 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REG_ID_PK" id="7D85C48B-3AC4-F9F9-C8E1-0D09B9D0E289">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:32 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<schemaObject>B2BF57EC-5447-5293-64E8-E3899A46E4F9</schemaObject>
+<segment>95929237-8F0F-9069-F1E8-1150077EBCD1</segment>
+<tableSpace>DF879E8A-B067-F7DC-0BDE-AE45DA0E325E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REG_ID_PK" id="C6249E24-9FE6-AF75-1FE6-C2FD4B2C7D03">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:32 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<segment>95929237-8F0F-9069-F1E8-1150077EBCD1</segment>
+<tableSpace>DF879E8A-B067-F7DC-0BDE-AE45DA0E325E</tableSpace>
+<existingIndex>7D85C48B-3AC4-F9F9-C8E1-0D09B9D0E289</existingIndex>
+<indexSegment>95929237-8F0F-9069-F1E8-1150077EBCD1</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

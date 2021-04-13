@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="ADD_JOB_HISTORY" directorySegmentName="seg_0" id="038273E9-F441-AAEE-3666-6955922DF563">
+<sourceConnName>PRD</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>ADD_JOB_HISTORY</sourceObjName>
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:35 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<owner><![CDATA[C7828023-DF84-0790-F33D-15ED584E2C7D]]></owner>
+<source>CREATE OR REPLACE PROCEDURE HR.ADD_JOB_HISTORY
+  (  p_emp_id          job_history.employee_id%type
+   , p_start_date      job_history.start_date%type
+   , p_end_date        job_history.end_date%type
+   , p_job_id          job_history.job_id%type
+   , p_department_id   job_history.department_id%type
+   )
+IS
+BEGIN
+  INSERT INTO job_history (employee_id, start_date, end_date,
+                           job_id, department_id)
+    VALUES(p_emp_id, p_start_date, p_end_date, p_job_id, p_department_id);
+END add_job_history;</source>
+</StoredProcedureOraclev10g>

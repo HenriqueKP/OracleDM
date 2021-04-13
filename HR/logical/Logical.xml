@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0D754E8B-973F-9B47-F410-55F37ACD8D7C" mainViewID="363FC4CF-1F78-C457-736C-9015A8861895">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:38:24 UTC</createdTime>
+<ownerDesignName>HR_compare</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

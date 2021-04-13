@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="COUNTRIES" directorySegmentName="seg_0" id="F976AE04-65EF-8B18-5A69-14B22EA36C75">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:29 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<schemaObject>B2BF57EC-5447-5293-64E8-E3899A46E4F9</schemaObject>
+<iotPctThreshold>50</iotPctThreshold>
+<logging>YES</logging>
+<organization>INDEX</organization>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>95929237-8F0F-9069-F1E8-1150077EBCD1</segment>
+<tableSpace>DF879E8A-B067-F7DC-0BDE-AE45DA0E325E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_ID" id="2CEBDE65-DD4A-8493-D53C-F0A8DBDAA6B8">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:30 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY_NAME" id="B932B3C4-0EF4-6D0C-F832-C39FD0B75242">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:30 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY_ID" id="E32C7DE9-606A-82C2-AC7F-668C472AFDB8">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:30 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COUNTR_REG_FK" id="19157825-0157-17F4-AED4-04733EA2D7B8">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:33 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COUNTRY_C_ID_PK" id="571F9813-EB0A-C355-72A6-F9CB3D537849">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-01 17:40:32 UTC</createdTime>
+<ownerDesignName>HR</ownerDesignName>
+<schemaObject>B2BF57EC-5447-5293-64E8-E3899A46E4F9</schemaObject>
+<segment>95929237-8F0F-9069-F1E8-1150077EBCD1</segment>
+<tableSpace>DF879E8A-B067-F7DC-0BDE-AE45DA0E325E</tableSpace>
+<indexSegment>95929237-8F0F-9069-F1E8-1150077EBCD1</indexSegment>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
