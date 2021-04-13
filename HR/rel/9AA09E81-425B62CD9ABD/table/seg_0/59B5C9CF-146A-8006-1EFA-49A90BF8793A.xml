@@ -72,20 +72,20 @@ References with employees and job_history table.]]></commentInRDBMS>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
-<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BONUS" id="5EC129A0-A0F0-8F97-E9F1-A834F0B8DB21">
+<Column name="INSS" id="B99BB74D-03D5-1E65-EAF9-7714E69AC3DB">
 <createdBy>HKPEREIR</createdBy>
-<createdTime>2021-04-13 14:55:35 UTC</createdTime>
+<createdTime>2021-04-13 14:59:13 UTC</createdTime>
 <ownerDesignName>HR</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
