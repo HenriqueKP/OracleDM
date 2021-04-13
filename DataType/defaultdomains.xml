@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Telefone" id="37E2B902-6B91-4CF7-3B19-C49C9073E483">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-13 14:03:12 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>9</dataTypeSize>
+<defaultValue>000000000</defaultValue>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="%column%&lt;&gt;&apos;00000&apos; "/>
+<implementationDef dbType="Oracle Database 11g" definition="%column%&lt;&gt;&apos;00000&apos; "/>
+<implementationDef dbType="Oracle Database 12c" definition="%column%&lt;&gt;&apos;00000&apos; "/>
+<implementationDef dbType="Oracle Database 12cR2" definition="%column%&lt;&gt;&apos;00000&apos; "/>
+<implementationDef dbType="Oracle Database 21c" definition="%column%&lt;&gt;&apos;00000&apos; "/>
+<implementationDef dbType="Oracle9i" definition="%column%&lt;&gt;&apos;00000&apos; "/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-05 13:20:13 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CPF" id="E50705EA-8ADB-9BCE-3AEB-5678F0A35000">
+<createdBy>HKPEREIR</createdBy>
+<createdTime>2021-04-13 14:02:33 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<defaultValue>00000000000</defaultValue>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>BF445313-915B-0E1C-B840-E4F1631D7D89</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
